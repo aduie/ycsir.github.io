@@ -120,3 +120,31 @@ try {
     main.refresh();
   });
 } catch (e) {}
+
+// 自己定义
+// 方法1：注意，这里的11，是一位原先形成的页面本就有15个a标签，所以，为了找其中这个，也没办法只能这样
+// 方法2：p是第一个p，以后要拓展，直接0~开始，后面代码不变
+// 
+document.getElementById("点击下载软件工程导论——复习版资料😉-V1-0").children[1].addEventListener("click", function() {
+  var fileUrl = "https://gitee.com/api/v5/repos/adieuyc/ycmusic/contents/download/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA.zip";
+  
+  var xhr = new XMLHttpRequest();
+  xhr.responseType = "json";
+  
+  xhr.onload = function() {
+      var downloadUrl = xhr.response.download_url;
+      
+      var a = document.createElement("a");
+      a.style.display = "none";
+      document.body.appendChild(a);
+      
+      a.href = downloadUrl;
+      a.download = "filename.zip";
+      
+      a.click();
+      document.body.removeChild(a);
+  };
+  
+  xhr.open("GET", fileUrl);
+  xhr.send();
+});
