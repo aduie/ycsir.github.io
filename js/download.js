@@ -1,7 +1,9 @@
 const downloadFile = () => {
     const fileUrl = "https://gitee.com/api/v5/repos/adieuyc/ycmusic/contents/download/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA.zip";
     console.log("download________________________________________________________________");
-    
+   
+
+
     if(window.location.href == "http://adieuyc.gitee.io/download/"){
         document.getElementsByTagName("h6")[0].addEventListener("click", function () {
             var xhr = new XMLHttpRequest();

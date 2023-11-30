@@ -6,7 +6,7 @@ import initLazyLoad from "./layouts/lazyload.js";
 import initScrollTopBottom from "./tools/scrollTopBottom.js";
 import initLocalSearch from "./tools/localSearch.js";
 import initCopyCode from "./tools/codeBlock.js";
-import downloadFile from "./download.js";
+// import downloadFile from "./download.js";
 
 export const main = {
   themeInfo: {
@@ -106,7 +106,7 @@ jjjjjj:;;::::::f,::::::::::::::,,:ffffj
     if (theme.articles.lazyload === true) {
       initLazyLoad();
     }
-    downloadFile();
+    // downloadFile();
   },
 };
 
