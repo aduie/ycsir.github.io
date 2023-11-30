@@ -98,8 +98,6 @@ jjjjjj:;;::::::f,::::::::::::::,,:ffffj
     if (theme.navbar.search.enable === true) {
       initLocalSearch();
     }
-    
-    downloadFile()
 
     if (theme.articles.code_block.copy === true) {
       initCopyCode();
@@ -108,6 +106,7 @@ jjjjjj:;;::::::f,::::::::::::::,,:ffffj
     if (theme.articles.lazyload === true) {
       initLazyLoad();
     }
+    downloadFile();
   },
 };
 
