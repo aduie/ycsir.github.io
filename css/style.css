@@ -127,13 +127,13 @@
   }
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -176,13 +176,13 @@
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -275,13 +275,13 @@
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -371,13 +371,13 @@
   --mermaid-theme: '';
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -420,13 +420,13 @@
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -519,13 +519,13 @@
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -1185,13 +1185,13 @@ button {
   justify-content: center;
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -1234,13 +1234,13 @@ button {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -1333,13 +1333,13 @@ button {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -1430,7 +1430,7 @@ button {
 }
 :root {
   --code-foreground: #3b4143;
-  --code-background: #b5b5b5;
+  --code-background: #f2f2f2;
   --highlight-background: #fafafa;
   --highlight-foreground: #3b4143;
   --highlight-keyword: #d73a49;
@@ -1453,7 +1453,7 @@ button {
 @media (prefers-color-scheme: light) {
   :root {
     --code-foreground: #3b4143;
-    --code-background: #b5b5b5;
+    --code-background: #f2f2f2;
     --highlight-background: #fafafa;
     --highlight-foreground: #3b4143;
     --highlight-keyword: #d73a49;
@@ -1500,7 +1500,7 @@ button {
 }
 .light-mode {
   --code-foreground: #3b4143;
-  --code-background: #b5b5b5;
+  --code-background: #f2f2f2;
   --highlight-background: #fafafa;
   --highlight-foreground: #3b4143;
   --highlight-keyword: #d73a49;
@@ -1861,13 +1861,13 @@ pre .deletion {
   z-index: 3;
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -1910,13 +1910,13 @@ pre .deletion {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -2009,13 +2009,13 @@ pre .deletion {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -2106,7 +2106,7 @@ pre .deletion {
 }
 :root {
   --code-foreground: #3b4143;
-  --code-background: #b5b5b5;
+  --code-background: #f2f2f2;
   --highlight-background: #fafafa;
   --highlight-foreground: #3b4143;
   --highlight-keyword: #d73a49;
@@ -2129,7 +2129,7 @@ pre .deletion {
 @media (prefers-color-scheme: light) {
   :root {
     --code-foreground: #3b4143;
-    --code-background: #b5b5b5;
+    --code-background: #f2f2f2;
     --highlight-background: #fafafa;
     --highlight-foreground: #3b4143;
     --highlight-keyword: #d73a49;
@@ -2176,7 +2176,7 @@ pre .deletion {
 }
 .light-mode {
   --code-foreground: #3b4143;
-  --code-background: #b5b5b5;
+  --code-background: #f2f2f2;
   --highlight-background: #fafafa;
   --highlight-foreground: #3b4143;
   --highlight-keyword: #d73a49;
@@ -2219,13 +2219,13 @@ pre .deletion {
   --highlight-deletion: #600;
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -2268,13 +2268,13 @@ pre .deletion {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -2367,13 +2367,13 @@ pre .deletion {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -2652,13 +2652,13 @@ html.is-animating .transition-fade {
   transition: 0.4s;
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -2701,13 +2701,13 @@ html.is-animating .transition-fade {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -2800,13 +2800,13 @@ html.is-animating .transition-fade {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -3208,13 +3208,13 @@ html.is-animating .swup-progress-icon {
   background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -3257,13 +3257,13 @@ html.is-animating .swup-progress-icon {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -3356,13 +3356,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -3886,13 +3886,13 @@ html.is-animating .swup-progress-icon {
   font-size: 1rem;
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -3935,13 +3935,13 @@ html.is-animating .swup-progress-icon {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -4034,13 +4034,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -4217,13 +4217,13 @@ html.is-animating .swup-progress-icon {
   border-image: var(--archive-timeline-last-child-color);
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -4266,13 +4266,13 @@ html.is-animating .swup-progress-icon {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -4365,13 +4365,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -4618,13 +4618,13 @@ html.is-animating .swup-progress-icon {
   color: var(--background-color);
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -4667,13 +4667,13 @@ html.is-animating .swup-progress-icon {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -4766,13 +4766,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -5047,13 +5047,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -5096,13 +5096,13 @@ html.is-animating .swup-progress-icon {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -5195,13 +5195,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -5601,13 +5601,13 @@ html.is-animating .swup-progress-icon {
   transition: all 0.2s ease;
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -5650,13 +5650,13 @@ html.is-animating .swup-progress-icon {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -5749,13 +5749,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -5936,13 +5936,13 @@ html.is-animating .swup-progress-icon {
   margin-bottom: 0;
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -5985,13 +5985,13 @@ html.is-animating .swup-progress-icon {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -6084,13 +6084,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -6320,13 +6320,13 @@ html.is-animating .swup-progress-icon {
   color: var(--primary-color);
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -6369,13 +6369,13 @@ html.is-animating .swup-progress-icon {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -6468,13 +6468,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -6767,13 +6767,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -6816,13 +6816,13 @@ html.is-animating .swup-progress-icon {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -6915,13 +6915,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -7358,13 +7358,13 @@ html.is-animating .swup-progress-icon {
   color: var(--third-text-color);
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -7407,13 +7407,13 @@ html.is-animating .swup-progress-icon {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -7506,13 +7506,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -7656,13 +7656,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -7705,13 +7705,13 @@ html.is-animating .swup-progress-icon {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -7804,13 +7804,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -8097,13 +8097,13 @@ html.is-animating .swup-progress-icon {
   color: var(first-text-color);
 }
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -8146,13 +8146,13 @@ html.is-animating .swup-progress-icon {
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -8245,13 +8245,13 @@ html.is-animating .swup-progress-icon {
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;

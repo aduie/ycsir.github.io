@@ -1,11 +1,11 @@
 :root {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -48,13 +48,13 @@
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #bfbfbf;
+    --background-color: #fff;
     --background-color-transparent: rgba(255,255,255,0.6);
     --background-color-transparent-15: rgba(255,255,255,0.15);
     --background-color-transparent-40: rgba(255,255,255,0.4);
     --background-color-transparent-80: rgba(255,255,255,0.8);
-    --second-background-color: #bbb;
-    --third-background-color: #b9b9b9;
+    --second-background-color: #fafafa;
+    --third-background-color: #f7f7f7;
     --third-background-color-transparent: rgba(241,241,241,0.6);
     --primary-color: #a14b59;
     --first-text-color: #323739;
@@ -147,13 +147,13 @@
   }
 }
 .light-mode {
-  --background-color: #bfbfbf;
+  --background-color: #fff;
   --background-color-transparent: rgba(255,255,255,0.6);
   --background-color-transparent-15: rgba(255,255,255,0.15);
   --background-color-transparent-40: rgba(255,255,255,0.4);
   --background-color-transparent-80: rgba(255,255,255,0.8);
-  --second-background-color: #bbb;
-  --third-background-color: #b9b9b9;
+  --second-background-color: #fafafa;
+  --third-background-color: #f7f7f7;
   --third-background-color-transparent: rgba(241,241,241,0.6);
   --primary-color: #a14b59;
   --first-text-color: #323739;
@@ -244,7 +244,7 @@
 }
 :root {
   --code-foreground: #3b4143;
-  --code-background: #b5b5b5;
+  --code-background: #f2f2f2;
   --highlight-background: #fafafa;
   --highlight-foreground: #3b4143;
   --highlight-keyword: #d73a49;
@@ -267,7 +267,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --code-foreground: #3b4143;
-    --code-background: #b5b5b5;
+    --code-background: #f2f2f2;
     --highlight-background: #fafafa;
     --highlight-foreground: #3b4143;
     --highlight-keyword: #d73a49;
@@ -314,7 +314,7 @@
 }
 .light-mode {
   --code-foreground: #3b4143;
-  --code-background: #b5b5b5;
+  --code-background: #f2f2f2;
   --highlight-background: #fafafa;
   --highlight-foreground: #3b4143;
   --highlight-keyword: #d73a49;
