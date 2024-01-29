@@ -13,19 +13,22 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="http://example.com/essays/"/>
+    <link rel="canonical" href="http://example.com/2024/01/29/初识nodejs/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta property="og:type" content="website">
-<meta property="og:title" content="说说">
-<meta property="og:url" content="http://example.com/essays/index.html">
+        <meta name="description" content="模块化1.当我们使用require()方法时，会执行被加载模块中的代码1234567&#x2F;&#x2F; 1.导入http模块const http &#x3D; require(&#x27;http&#x27;);&#x2F;&#x2F; 2.创建 web 服务器实例const server &#x3D; http.createServer()&#x2F;&#x2F; 3.为服务器实例绑定 request，监听客户端请求server.on(&#x27;request&amp;#x">
+<meta property="og:type" content="article">
+<meta property="og:title" content="初识NodeJs模块化">
+<meta property="og:url" content="http://example.com/2024/01/29/%E5%88%9D%E8%AF%86NodeJs/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="模块化1.当我们使用require()方法时，会执行被加载模块中的代码1234567&#x2F;&#x2F; 1.导入http模块const http &#x3D; require(&#x27;http&#x27;);&#x2F;&#x2F; 2.创建 web 服务器实例const server &#x3D; http.createServer()&#x2F;&#x2F; 3.为服务器实例绑定 request，监听客户端请求server.on(&#x27;request&amp;#x">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-11-26T10:33:16.000Z">
-<meta property="article:modified_time" content="2023-11-26T10:46:11.166Z">
+<meta property="article:published_time" content="2024-01-29T14:02:57.000Z">
+<meta property="article:modified_time" content="2024-01-29T14:25:34.118Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="学习">
 <meta name="twitter:card" content="summary">
     
     
@@ -38,7 +41,7 @@
     
     <title>
         
-            说说 -
+            初识NodeJs模块化 -
         
         Welcom To 羽晨的随心记☕
     </title>
@@ -169,7 +172,7 @@
                         
                             <li class="navbar-item">
                                 <!-- Menu -->
-                                <a class="active" 
+                                <a class="" 
                                     href="/essays/"  >
                                     
                                         
@@ -267,7 +270,7 @@
             
                 
                     <li class="drawer-navbar-item text-base my-1.5 flex justify-center items-center">
-                        <a class="rounded-3xl py-1.5 px-5 hover:border hover:!text-primary active:!text-primary group active" 
+                        <a class="rounded-3xl py-1.5 px-5 hover:border hover:!text-primary active:!text-primary group " 
                         href="/essays/"  >
                              
                                 
@@ -323,88 +326,289 @@
             <div class="main-content">
 
                 
-                    <div class="page-template-container">
+                    <div class="post-page-container">
+    <div class="article-content-container">
+
+        <div class="article-title relative w-full">
+            
+                
+                
+                <img src="https://i0.imgs.ovh/2024/01/29/KBcye.png" alt="初识NodeJs模块化" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75"/>
+                
+                <div class="w-full flex items-center absolute bottom-0 justify-start">
+                    <h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-bold backdrop-blur-lg rounded-xl border border-border-color ">初识NodeJs模块化</h1>
+                </div>
+            
+            </div>
+
+        
+            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="https://i.imgs.ovh/2023/11/21/HgJUC.jpeg">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">羽晨sir</span>
+                        
+                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">💗</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-01-29 22:02:57</span>
+        <span class="mobile">2024-01-29 22:02:57</span>
+        <span class="hover-info">Created</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2024-01-29 22:25:34</span>
+            <span class="mobile">2024-01-29 22:25:34</span>
+            <span class="hover-info">Updated</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/Study/">Study</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E5%AD%A6%E4%B9%A0/">学习</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
     
     
     
-        <div class="mb-4">
-    <h1 class="page-title-header">说说</h1>
-    <ul class="flex flex-col mb-4 gap-6">
-        
-        
-            <li class="w-full flex flex-row relative">
-                <div class="w-10 h-10 mr-4 rounded-lg overflow-hidden border border-border-color p-[1px] flex-shrink-0"><img src="https://i.imgs.ovh/2023/11/21/HgJUC.jpeg" class="w-full h-full rounded-[6.2px]"></div>
-                <div class="w-full border-border-color rounded-xl rounded-tl-none redefine-box-shadow-flat overflow-hidden">
-                    <div class="px-4 py-1.5 text-sm border-b border-border-color bg-zinc-50 dark:bg-zinc-800 text-third-text-color">12/10/2023</div>
-                    <div id="shuoshuo-content" class="px-4 py-2"><p>电工实验，很无聊，boring</p>
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
 </div>
+
+                    </div>
                 </div>
-                <div class=" absolute left-[50.5px] top-3 transform w-2 h-2 border-solid border-t border-l bg-zinc-50 -rotate-45 border-border-color dark:bg-zinc-800"></div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+            <h2 id="模块化"><a href="#模块化" class="headerlink" title="模块化"></a>模块化</h2><h3 id="1-当我们使用require-方法时，会执行被加载模块中的代码"><a href="#1-当我们使用require-方法时，会执行被加载模块中的代码" class="headerlink" title="1.当我们使用require()方法时，会执行被加载模块中的代码"></a>1.当我们使用<code>require()</code>方法时，会执行被加载模块中的代码</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 1.导入http模块</span></span><br><span class="line"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">&#x27;http&#x27;</span>);</span><br><span class="line"><span class="comment">// 2.创建 web 服务器实例</span></span><br><span class="line"><span class="keyword">const</span> server = http.<span class="title function_">createServer</span>()</span><br><span class="line"><span class="comment">// 3.为服务器实例绑定 request，监听客户端请求</span></span><br><span class="line">server.<span class="title function_">on</span>(<span class="string">&#x27;request&#x27;</span>, <span class="function">(<span class="params">req, res</span>) =&gt;</span> &#123;&#125;)</span><br><span class="line">server.<span class="title function_">listen</span>(<span class="number">80</span>,<span class="keyword">function</span> (<span class="params"></span>) &#123;&#125;)</span><br></pre></td></tr></table></figure></div>
+<ul>
+<li><p>我们写的自定义模块，也可以被<code>require()</code>出来</p>
+</li>
+<li><p>在模块内定义的成员，无法在外面被访问，防止全局变量污染问题。</p>
+</li>
+<li><p>module可以向外共享模块作用域中的成员。</p>
+</li>
+<li><p>而在每个我们写的js文件中，都有一个module对象，它里面存储了和当前模块的信息。可以用代码打印：<br><code>console.log(module);</code></p>
+<ul>
+<li>在自定义模块内，使用 <strong>module.exports</strong> 对象，将模块内成员共享出去，给外界使用，默认在自定义模块化中， <em><strong>module.exports &#x3D; {}</strong></em></li>
+<li><em>外界</em> 用 <em><strong>require()</strong></em> 方法导入自定义模块时，得到的就是 <strong>module.exports</strong> 所指的对象。</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-使用命令-npm-init-y-可以快速创建配置文件-package-json-，但要注意，上述命令只能在英文目录下运行，不能有中文或空格"><a href="#2-使用命令-npm-init-y-可以快速创建配置文件-package-json-，但要注意，上述命令只能在英文目录下运行，不能有中文或空格" class="headerlink" title="2.使用命令 npm init -y 可以快速创建配置文件 package.json ，但要注意，上述命令只能在英文目录下运行，不能有中文或空格"></a>2.使用命令 <code>npm init -y</code> 可以快速创建配置文件 <em><strong>package.json</strong></em> ，但要注意，上述命令只能在英文目录下运行，不能有中文或空格</h3><ul>
+<li><em><strong>package.json</strong></em> 配置文件，可用来记录项目中安装了哪些包。从而方便剔除 <em><strong>node_modules</strong></em> 目录之后，方便成员之间共享代码。</li>
+</ul>
+<h3 id="3-在-package-json-配置文件中，有一个-dependencies-节点，专门用来记录您使用-npm-install-命令安装了哪些包。"><a href="#3-在-package-json-配置文件中，有一个-dependencies-节点，专门用来记录您使用-npm-install-命令安装了哪些包。" class="headerlink" title="3.在 package.json 配置文件中，有一个 dependencies 节点，专门用来记录您使用 npm install 命令安装了哪些包。"></a>3.在 <em><strong>package.json</strong></em> 配置文件中，有一个 <code>dependencies</code> 节点，专门用来记录您使用 <strong>npm install</strong> 命令安装了哪些包。</h3><ul>
+<li><p>当我们下载别人的项目时，我们可以使用命令 <code>npm install</code> 来下载该项目所依赖的包，也就是 <strong>package.json</strong> 下的 <strong>dependencies</strong> 的节点所显示的包</p>
+</li>
+<li><p>卸载某个包，只要使用命令 <code>npm uninstall 包名</code></p>
+</li>
+</ul>
+<h3 id="4-devDependencies-节点-只在开发阶段用得到"><a href="#4-devDependencies-节点-只在开发阶段用得到" class="headerlink" title="4. devDependencies 节点:只在开发阶段用得到"></a>4. <em><strong>devDependencies</strong></em> 节点:只在开发阶段用得到</h3><ul>
+<li>如果某些包，<strong>只在项目开发阶段</strong>会用到，在<strong>项目上线之后不会用到</strong>，则建议把这些包记录到 <em><strong>devDependencies</strong></em>节点中。与之对应的，如果某些包在<strong>开发</strong>和<strong>项目上线之后</strong>都会用到，则建议把这些包记录到 <em>devDependencies</em>节点中。</li>
+<li>使用命令<code>npm i 包名 -D</code>意思就是说，将这个包记录到<em>devDependencies</em>节点中。上述命令<strong>等同于</strong> <code>npm install 包名 --save-dev</code></li>
+</ul>
+<h3 id="5-解决下载包速度慢的问题"><a href="#5-解决下载包速度慢的问题" class="headerlink" title="5.解决下载包速度慢的问题"></a>5.解决下载包速度慢的问题</h3><ul>
+<li>切换 <strong>npm</strong> 的下包镜像源</li>
+</ul>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 查看当前的下包镜像源</span></span><br><span class="line">npm config get registry</span><br><span class="line"><span class="comment">// 将下包的镜像源切换为淘宝镜像源</span></span><br><span class="line">npm config set registry=<span class="attr">http</span>:<span class="comment">//registry.npm.taobao.org/</span></span><br></pre></td></tr></table></figure></div>
+<ul>
+<li>当然，也可以使用快捷方式切换，但我们需要安装 <code>nrm</code><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 安装 nrm</span></span><br><span class="line">npm i nrm -g</span><br><span class="line"><span class="comment">// 查看所有可用的镜像源</span></span><br><span class="line">nrm ls</span><br><span class="line"><span class="comment">// 将下包的镜像源切换为 taobao 镜像</span></span><br><span class="line">nrm use taobao</span><br></pre></td></tr></table></figure></div></li>
+</ul>
+<h3 id="6-包的分类"><a href="#6-包的分类" class="headerlink" title="6.包的分类"></a>6.包的分类</h3><h4 id="6-1-全局包"><a href="#6-1-全局包" class="headerlink" title="6.1 全局包"></a>6.1 全局包</h4><ol>
+<li>在执行 <code>npm install</code> 命令时，如果提供了 <code>-g</code>参数，则会把包安装为<strong>全局包</strong><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 全局安装指定的包</span></span><br><span class="line">npm -i 包名 -g  </span><br><span class="line"><span class="comment">// 卸载全局安装的包</span></span><br><span class="line">npm uninstall 包名 -g</span><br></pre></td></tr></table></figure></div>
+<blockquote>
+<p>只有工具性质的包才有全局安装的必要性，以为他们提供好用的终端命令。</p>
+</blockquote>
+</li>
+</ol>
+<h4 id="6-2-i5ting-toc"><a href="#6-2-i5ting-toc" class="headerlink" title="6.2 i5ting_toc"></a>6.2 <code>i5ting_toc</code></h4><ol>
+<li><strong>i5ting_toc</strong> 是一个可以<strong>把md文档</strong>转换为 <strong>html</strong> 页面的小工具，使用步骤为：<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 将i5ting_toc安装为全局包</span></span><br><span class="line">npm install -g i5ting_toc</span><br><span class="line"><span class="comment">// 调用 i5ting_toc ，轻松实现 md 转html </span></span><br><span class="line">i5ting_toc -f 要转换的md文件路径 -o</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h3 id="7-包的规范"><a href="#7-包的规范" class="headerlink" title="7.包的规范"></a>7.包的规范</h3><ol>
+<li>一个规范的包，符合下面三点要求：</li>
+</ol>
+<ul>
+<li>包必须<strong>以单独的目录</strong>存在</li>
+<li>包的<strong>顶级目录下</strong>必须包含 <code>package.json</code> 这个包管理配置文件</li>
+<li>package.json 中必须包含 <code>name</code>,<code>version</code>,<code>main</code> 三个属性，分别是<code>包的名字</code>，<code>包的版本号</code>，<code>包的入口</code>。</li>
+</ul>
+<h3 id="8-设计一款自己的“包”"><a href="#8-设计一款自己的“包”" class="headerlink" title="8. 设计一款自己的“包”"></a>8. 设计一款自己的<code>“包”</code></h3><ul>
+<li>新建<code>包名</code>文件夹，作为包的<strong>根目录</strong></li>
+<li>在<code>包</code>文件夹中，新建三个文件：<ul>
+<li><strong>package.json</strong>（包管理配置文件）</li>
+<li><strong>index.js</strong>（包的入口文件）</li>
+<li><strong>README.md</strong>（包的说明文档）</li>
+</ul>
+</li>
+<li>建成包之后，可以上传至<code>npm</code>官网包管理服务器中。</li>
+</ul>
+
+        </div>
+
+        
+            <div class="post-copyright-info px-2 sm:px-6 md:px-8">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> 初识NodeJs模块化</li>
+        <li><strong>Author:</strong> 羽晨sir</li>
+        <li><strong>Created at
+                :</strong> 2024-01-29 22:02:57</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2024-01-29 22:25:34
             </li>
         
-            <li class="w-full flex flex-row relative">
-                <div class="w-10 h-10 mr-4 rounded-lg overflow-hidden border border-border-color p-[1px] flex-shrink-0"><img src="https://i.imgs.ovh/2023/11/21/HgJUC.jpeg" class="w-full h-full rounded-[6.2px]"></div>
-                <div class="w-full border-border-color rounded-xl rounded-tl-none redefine-box-shadow-flat overflow-hidden">
-                    <div class="px-4 py-1.5 text-sm border-b border-border-color bg-zinc-50 dark:bg-zinc-800 text-third-text-color">12/09/2023</div>
-                    <div id="shuoshuo-content" class="px-4 py-2"><p>battle</p>
-</div>
-                </div>
-                <div class=" absolute left-[50.5px] top-3 transform w-2 h-2 border-solid border-t border-l bg-zinc-50 -rotate-45 border-border-color dark:bg-zinc-800"></div>
-            </li>
-        
-            <li class="w-full flex flex-row relative">
-                <div class="w-10 h-10 mr-4 rounded-lg overflow-hidden border border-border-color p-[1px] flex-shrink-0"><img src="https://i.imgs.ovh/2023/11/21/HgJUC.jpeg" class="w-full h-full rounded-[6.2px]"></div>
-                <div class="w-full border-border-color rounded-xl rounded-tl-none redefine-box-shadow-flat overflow-hidden">
-                    <div class="px-4 py-1.5 text-sm border-b border-border-color bg-zinc-50 dark:bg-zinc-800 text-third-text-color">12/08/2023</div>
-                    <div id="shuoshuo-content" class="px-4 py-2"><p>Stress！ So Stressful！🥱🥱🥱</p>
-</div>
-                </div>
-                <div class=" absolute left-[50.5px] top-3 transform w-2 h-2 border-solid border-t border-l bg-zinc-50 -rotate-45 border-border-color dark:bg-zinc-800"></div>
-            </li>
-        
-            <li class="w-full flex flex-row relative">
-                <div class="w-10 h-10 mr-4 rounded-lg overflow-hidden border border-border-color p-[1px] flex-shrink-0"><img src="https://i.imgs.ovh/2023/11/21/HgJUC.jpeg" class="w-full h-full rounded-[6.2px]"></div>
-                <div class="w-full border-border-color rounded-xl rounded-tl-none redefine-box-shadow-flat overflow-hidden">
-                    <div class="px-4 py-1.5 text-sm border-b border-border-color bg-zinc-50 dark:bg-zinc-800 text-third-text-color">12/07/2023</div>
-                    <div id="shuoshuo-content" class="px-4 py-2"><p>🤔🤔🤔头发变稀疏可能由多种原因引起，包括遗传因素、荷尔蒙水平变化、营养不良、生活方式等。虽然无法完全逆转遗传因素导致的脱发，但可以采取一些措施来促进头发健康、减缓脱发的进程，以及增加头发密度。如：保持健康的生活方式： 良好的生活方式对头发健康至关重要。确保有足够的睡眠、保持适当的饮食、多喝水，远离烟草和过度饮酒。饮食均衡： 确保膳食中包含足够的蛋白质、维生素（特别是维生素A、B、C、D和E）、矿物质和健康脂肪。这有助于维持头发的生长和健康。定期洗发： 使用温和的洗发产品，并定期清洗头发，以防头皮屑和堵塞毛囊。避免过度使用热工具： 减少使用吹风机、热风卷等热工具，以减少对头发的损害。避免紧绷发型： 避免紧绷的发型，如紧绑的辫子或发髻，以减轻对头发的拉力。应用药物治疗： 一些药物，如米诺地尔（Minoxidil）和医生开具的某些处方药，可能有助于刺激头发生长。在使用任何药物之前，最好先咨询医生的建议。控制压力： 长期的精神压力可能导致头发稀疏。尝试通过放松技巧、运动或冥想来减轻压力。寻求专业帮助： 如果头发稀疏问题较严重，建议咨询专业的皮肤科医生或医学美容专家，他们可以评估你的状况并提供更具体的建议和治疗方案。</p>
-</div>
-                </div>
-                <div class=" absolute left-[50.5px] top-3 transform w-2 h-2 border-solid border-t border-l bg-zinc-50 -rotate-45 border-border-color dark:bg-zinc-800"></div>
-            </li>
-        
-            <li class="w-full flex flex-row relative">
-                <div class="w-10 h-10 mr-4 rounded-lg overflow-hidden border border-border-color p-[1px] flex-shrink-0"><img src="https://i.imgs.ovh/2023/11/21/HgJUC.jpeg" class="w-full h-full rounded-[6.2px]"></div>
-                <div class="w-full border-border-color rounded-xl rounded-tl-none redefine-box-shadow-flat overflow-hidden">
-                    <div class="px-4 py-1.5 text-sm border-b border-border-color bg-zinc-50 dark:bg-zinc-800 text-third-text-color">12/06/2023</div>
-                    <div id="shuoshuo-content" class="px-4 py-2"><p>我的头发！！！发！！！发！！！😌😌😌哎，别再掉啦，已经秃噜皮啦🥴🥴🥴</p>
-</div>
-                </div>
-                <div class=" absolute left-[50.5px] top-3 transform w-2 h-2 border-solid border-t border-l bg-zinc-50 -rotate-45 border-border-color dark:bg-zinc-800"></div>
-            </li>
-        
-            <li class="w-full flex flex-row relative">
-                <div class="w-10 h-10 mr-4 rounded-lg overflow-hidden border border-border-color p-[1px] flex-shrink-0"><img src="https://i.imgs.ovh/2023/11/21/HgJUC.jpeg" class="w-full h-full rounded-[6.2px]"></div>
-                <div class="w-full border-border-color rounded-xl rounded-tl-none redefine-box-shadow-flat overflow-hidden">
-                    <div class="px-4 py-1.5 text-sm border-b border-border-color bg-zinc-50 dark:bg-zinc-800 text-third-text-color">11/26/2023</div>
-                    <div id="shuoshuo-content" class="px-4 py-2"><p>那个时候的车马很慢，一生只爱一个人</p>
-</div>
-                </div>
-                <div class=" absolute left-[50.5px] top-3 transform w-2 h-2 border-solid border-t border-l bg-zinc-50 -rotate-45 border-border-color dark:bg-zinc-800"></div>
-            </li>
-        
+        <li>
+            <strong>Link:</strong> https://www.douyin.com/user/self?modal_id=7301289319514361127/2024/01/29/初识NodeJs/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+
+            
+                This work is licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a>.
+            
+        </li>
     </ul>
 </div>
 
+            </div>
+        
+
+        
+            <ul class="post-tags-box">
+                
+                    <li class="tag-item">
+                        <a href="/tags/%E5%AD%A6%E4%B9%A0/">#学习</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+
+        
+            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/2023/11/25/%E5%AD%A6%E4%B9%A0-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA-%E4%B8%8D%E6%8C%82%E7%A7%91%E7%AC%94%E8%AE%B0/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">学习-软件工程导论-不挂科笔记</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+                <div class="comments-container pjax">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fa-solid fa-comments"></i>&nbsp;Comments
+    </div>
     
-    <div class="page-template-content markdown-body">
+
         
             
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>
+      import { init } from '/js/libs/waline.mjs';
+
+      function loadWaline() {
+        init({
+          el: '#waline',
+          serverURL: 'https://ycomet.love/',
+          lang: 'zh-CN',
+          dark: 'body[class~="dark-mode"]',
+          requiredMeta: ['nick', 'mail']
+        });
+      }
+
+      if (typeof swup !== 'undefined') {
+        loadWaline();
+      } else {
+        window.addEventListener('DOMContentLoaded', loadWaline);
+      }
+    </script>
+
+
+
+        
+    
+</div>
+
+            </div>
         
     </div>
-    <div class="page-template-comments">
-        
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">On this page</div>
+        <div class="page-title">初识NodeJs模块化</div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A8%A1%E5%9D%97%E5%8C%96"><span class="nav-text">模块化</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%BD%93%E6%88%91%E4%BB%AC%E4%BD%BF%E7%94%A8require-%E6%96%B9%E6%B3%95%E6%97%B6%EF%BC%8C%E4%BC%9A%E6%89%A7%E8%A1%8C%E8%A2%AB%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9D%97%E4%B8%AD%E7%9A%84%E4%BB%A3%E7%A0%81"><span class="nav-text">1.当我们使用require()方法时，会执行被加载模块中的代码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4-npm-init-y-%E5%8F%AF%E4%BB%A5%E5%BF%AB%E9%80%9F%E5%88%9B%E5%BB%BA%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-package-json-%EF%BC%8C%E4%BD%86%E8%A6%81%E6%B3%A8%E6%84%8F%EF%BC%8C%E4%B8%8A%E8%BF%B0%E5%91%BD%E4%BB%A4%E5%8F%AA%E8%83%BD%E5%9C%A8%E8%8B%B1%E6%96%87%E7%9B%AE%E5%BD%95%E4%B8%8B%E8%BF%90%E8%A1%8C%EF%BC%8C%E4%B8%8D%E8%83%BD%E6%9C%89%E4%B8%AD%E6%96%87%E6%88%96%E7%A9%BA%E6%A0%BC"><span class="nav-text">2.使用命令 npm init -y 可以快速创建配置文件 package.json ，但要注意，上述命令只能在英文目录下运行，不能有中文或空格</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%9C%A8-package-json-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%AD%EF%BC%8C%E6%9C%89%E4%B8%80%E4%B8%AA-dependencies-%E8%8A%82%E7%82%B9%EF%BC%8C%E4%B8%93%E9%97%A8%E7%94%A8%E6%9D%A5%E8%AE%B0%E5%BD%95%E6%82%A8%E4%BD%BF%E7%94%A8-npm-install-%E5%91%BD%E4%BB%A4%E5%AE%89%E8%A3%85%E4%BA%86%E5%93%AA%E4%BA%9B%E5%8C%85%E3%80%82"><span class="nav-text">3.在 package.json 配置文件中，有一个 dependencies 节点，专门用来记录您使用 npm install 命令安装了哪些包。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-devDependencies-%E8%8A%82%E7%82%B9-%E5%8F%AA%E5%9C%A8%E5%BC%80%E5%8F%91%E9%98%B6%E6%AE%B5%E7%94%A8%E5%BE%97%E5%88%B0"><span class="nav-text">4. devDependencies 节点:只在开发阶段用得到</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E8%A7%A3%E5%86%B3%E4%B8%8B%E8%BD%BD%E5%8C%85%E9%80%9F%E5%BA%A6%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-text">5.解决下载包速度慢的问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-%E5%8C%85%E7%9A%84%E5%88%86%E7%B1%BB"><span class="nav-text">6.包的分类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-%E5%8C%85%E7%9A%84%E8%A7%84%E8%8C%83"><span class="nav-text">7.包的规范</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-%E8%AE%BE%E8%AE%A1%E4%B8%80%E6%AC%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E2%80%9C%E5%8C%85%E2%80%9D"><span class="nav-text">8. 设计一款自己的“包”</span></a></li></ol></li></ol>
+
     </div>
 </div>
+        </div>
+    
+</div>
+
 
 
                 
@@ -484,6 +688,27 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-side-tools-container">

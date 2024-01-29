@@ -1,6 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>初识NodeJs模块化</title>
+    <url>/2024/01/29/%E5%88%9D%E8%AF%86NodeJs/</url>
+    <content><![CDATA[<h2 id="模块化"><a href="#模块化" class="headerlink" title="模块化"></a>模块化</h2><h3 id="1-当我们使用require-方法时，会执行被加载模块中的代码"><a href="#1-当我们使用require-方法时，会执行被加载模块中的代码" class="headerlink" title="1.当我们使用require()方法时，会执行被加载模块中的代码"></a>1.当我们使用<code>require()</code>方法时，会执行被加载模块中的代码</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 1.导入http模块</span></span><br><span class="line"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">&#x27;http&#x27;</span>);</span><br><span class="line"><span class="comment">// 2.创建 web 服务器实例</span></span><br><span class="line"><span class="keyword">const</span> server = http.<span class="title function_">createServer</span>()</span><br><span class="line"><span class="comment">// 3.为服务器实例绑定 request，监听客户端请求</span></span><br><span class="line">server.<span class="title function_">on</span>(<span class="string">&#x27;request&#x27;</span>, <span class="function">(<span class="params">req, res</span>) =&gt;</span> &#123;&#125;)</span><br><span class="line">server.<span class="title function_">listen</span>(<span class="number">80</span>,<span class="keyword">function</span> (<span class="params"></span>) &#123;&#125;)</span><br></pre></td></tr></table></figure></div>
+<ul>
+<li><p>我们写的自定义模块，也可以被<code>require()</code>出来</p>
+</li>
+<li><p>在模块内定义的成员，无法在外面被访问，防止全局变量污染问题。</p>
+</li>
+<li><p>module可以向外共享模块作用域中的成员。</p>
+</li>
+<li><p>而在每个我们写的js文件中，都有一个module对象，它里面存储了和当前模块的信息。可以用代码打印：<br><code>console.log(module);</code></p>
+<ul>
+<li>在自定义模块内，使用 <strong>module.exports</strong> 对象，将模块内成员共享出去，给外界使用，默认在自定义模块化中， <em><strong>module.exports &#x3D; {}</strong></em></li>
+<li><em>外界</em> 用 <em><strong>require()</strong></em> 方法导入自定义模块时，得到的就是 <strong>module.exports</strong> 所指的对象。</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-使用命令-npm-init-y-可以快速创建配置文件-package-json-，但要注意，上述命令只能在英文目录下运行，不能有中文或空格"><a href="#2-使用命令-npm-init-y-可以快速创建配置文件-package-json-，但要注意，上述命令只能在英文目录下运行，不能有中文或空格" class="headerlink" title="2.使用命令 npm init -y 可以快速创建配置文件 package.json ，但要注意，上述命令只能在英文目录下运行，不能有中文或空格"></a>2.使用命令 <code>npm init -y</code> 可以快速创建配置文件 <em><strong>package.json</strong></em> ，但要注意，上述命令只能在英文目录下运行，不能有中文或空格</h3><ul>
+<li><em><strong>package.json</strong></em> 配置文件，可用来记录项目中安装了哪些包。从而方便剔除 <em><strong>node_modules</strong></em> 目录之后，方便成员之间共享代码。</li>
+</ul>
+<h3 id="3-在-package-json-配置文件中，有一个-dependencies-节点，专门用来记录您使用-npm-install-命令安装了哪些包。"><a href="#3-在-package-json-配置文件中，有一个-dependencies-节点，专门用来记录您使用-npm-install-命令安装了哪些包。" class="headerlink" title="3.在 package.json 配置文件中，有一个 dependencies 节点，专门用来记录您使用 npm install 命令安装了哪些包。"></a>3.在 <em><strong>package.json</strong></em> 配置文件中，有一个 <code>dependencies</code> 节点，专门用来记录您使用 <strong>npm install</strong> 命令安装了哪些包。</h3><ul>
+<li><p>当我们下载别人的项目时，我们可以使用命令 <code>npm install</code> 来下载该项目所依赖的包，也就是 <strong>package.json</strong> 下的 <strong>dependencies</strong> 的节点所显示的包</p>
+</li>
+<li><p>卸载某个包，只要使用命令 <code>npm uninstall 包名</code></p>
+</li>
+</ul>
+<h3 id="4-devDependencies-节点-只在开发阶段用得到"><a href="#4-devDependencies-节点-只在开发阶段用得到" class="headerlink" title="4. devDependencies 节点:只在开发阶段用得到"></a>4. <em><strong>devDependencies</strong></em> 节点:只在开发阶段用得到</h3><ul>
+<li>如果某些包，<strong>只在项目开发阶段</strong>会用到，在<strong>项目上线之后不会用到</strong>，则建议把这些包记录到 <em><strong>devDependencies</strong></em>节点中。与之对应的，如果某些包在<strong>开发</strong>和<strong>项目上线之后</strong>都会用到，则建议把这些包记录到 <em>devDependencies</em>节点中。</li>
+<li>使用命令<code>npm i 包名 -D</code>意思就是说，将这个包记录到<em>devDependencies</em>节点中。上述命令<strong>等同于</strong> <code>npm install 包名 --save-dev</code></li>
+</ul>
+<h3 id="5-解决下载包速度慢的问题"><a href="#5-解决下载包速度慢的问题" class="headerlink" title="5.解决下载包速度慢的问题"></a>5.解决下载包速度慢的问题</h3><ul>
+<li>切换 <strong>npm</strong> 的下包镜像源</li>
+</ul>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 查看当前的下包镜像源</span></span><br><span class="line">npm config get registry</span><br><span class="line"><span class="comment">// 将下包的镜像源切换为淘宝镜像源</span></span><br><span class="line">npm config set registry=<span class="attr">http</span>:<span class="comment">//registry.npm.taobao.org/</span></span><br></pre></td></tr></table></figure></div>
+<ul>
+<li>当然，也可以使用快捷方式切换，但我们需要安装 <code>nrm</code><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 安装 nrm</span></span><br><span class="line">npm i nrm -g</span><br><span class="line"><span class="comment">// 查看所有可用的镜像源</span></span><br><span class="line">nrm ls</span><br><span class="line"><span class="comment">// 将下包的镜像源切换为 taobao 镜像</span></span><br><span class="line">nrm use taobao</span><br></pre></td></tr></table></figure></div></li>
+</ul>
+<h3 id="6-包的分类"><a href="#6-包的分类" class="headerlink" title="6.包的分类"></a>6.包的分类</h3><h4 id="6-1-全局包"><a href="#6-1-全局包" class="headerlink" title="6.1 全局包"></a>6.1 全局包</h4><ol>
+<li>在执行 <code>npm install</code> 命令时，如果提供了 <code>-g</code>参数，则会把包安装为<strong>全局包</strong><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 全局安装指定的包</span></span><br><span class="line">npm -i 包名 -g  </span><br><span class="line"><span class="comment">// 卸载全局安装的包</span></span><br><span class="line">npm uninstall 包名 -g</span><br></pre></td></tr></table></figure></div>
+<blockquote>
+<p>只有工具性质的包才有全局安装的必要性，以为他们提供好用的终端命令。</p>
+</blockquote>
+</li>
+</ol>
+<h4 id="6-2-i5ting-toc"><a href="#6-2-i5ting-toc" class="headerlink" title="6.2 i5ting_toc"></a>6.2 <code>i5ting_toc</code></h4><ol>
+<li><strong>i5ting_toc</strong> 是一个可以<strong>把md文档</strong>转换为 <strong>html</strong> 页面的小工具，使用步骤为：<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 将i5ting_toc安装为全局包</span></span><br><span class="line">npm install -g i5ting_toc</span><br><span class="line"><span class="comment">// 调用 i5ting_toc ，轻松实现 md 转html </span></span><br><span class="line">i5ting_toc -f 要转换的md文件路径 -o</span><br></pre></td></tr></table></figure></div></li>
+</ol>
+<h3 id="7-包的规范"><a href="#7-包的规范" class="headerlink" title="7.包的规范"></a>7.包的规范</h3><ol>
+<li>一个规范的包，符合下面三点要求：</li>
+</ol>
+<ul>
+<li>包必须<strong>以单独的目录</strong>存在</li>
+<li>包的<strong>顶级目录下</strong>必须包含 <code>package.json</code> 这个包管理配置文件</li>
+<li>package.json 中必须包含 <code>name</code>,<code>version</code>,<code>main</code> 三个属性，分别是<code>包的名字</code>，<code>包的版本号</code>，<code>包的入口</code>。</li>
+</ul>
+<h3 id="8-设计一款自己的“包”"><a href="#8-设计一款自己的“包”" class="headerlink" title="8. 设计一款自己的“包”"></a>8. 设计一款自己的<code>“包”</code></h3><ul>
+<li>新建<code>包名</code>文件夹，作为包的<strong>根目录</strong></li>
+<li>在<code>包</code>文件夹中，新建三个文件：<ul>
+<li><strong>package.json</strong>（包管理配置文件）</li>
+<li><strong>index.js</strong>（包的入口文件）</li>
+<li><strong>README.md</strong>（包的说明文档）</li>
+</ul>
+</li>
+<li>建成包之后，可以上传至<code>npm</code>官网包管理服务器中。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Study</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>学习-软件工程导论-不挂科笔记</title>
     <url>/2023/11/25/%E5%AD%A6%E4%B9%A0-%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%AF%BC%E8%AE%BA-%E4%B8%8D%E6%8C%82%E7%A7%91%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p><strong>随着期末将近，又是一支笔，一个夜晚，一个奇迹啦😂，但是要知道，有些知识，真不是一个晚上能记忆完的😷</strong></p>
