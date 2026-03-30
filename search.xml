@@ -1688,4 +1688,180 @@
         <tag>学习</tag>
       </tags>
   </entry>
+  <entry>
+    <title>一般入职一个岗位的步骤☕</title>
+    <url>/2026/03/30/%E4%B8%80%E8%88%AC%E5%85%A5%E8%81%8C%E4%B8%80%E4%B8%AA%E5%B2%97%E4%BD%8D%E7%9A%84%E6%AD%A5%E9%AA%A4%E2%98%95/</url>
+    <content><![CDATA[<p>说明：本文档针对新手定制，所有操作步骤清晰可落地，适配公司规模（小型公司），重点覆盖「入职办理」「开发环境搭建」全流程，每个步骤标注具体操作、注意事项，避免踩坑。</p>
+<h1 id="一、入职办理"><a href="#一、入职办理" class="headerlink" title="一、入职办理"></a>一、入职办理</h1><p>核心目标：完成入职手续，领取办公物资，熟悉基础对接人</p>
+<ol>
+<li><p>到公司后，直接前往前台，告知前台“我是今天入职XX岗位的XXX”，出示身份证原件。</p>
+</li>
+<li><p>前台引导到HR工位，领取入职相关表格（入职登记表、劳动合同、保密协议），按要求填写：</p>
+<blockquote>
+<p>1️⃣入职登记表：如实填写个人信息（姓名、电话、紧急联系人、学历、工作经历等），字迹清晰。</p>
+<p>2️⃣劳动合同：仔细查看薪资（8-13K，确认发放时间）、试用期、岗位职责等条款，确认无误后签字（一式两份，自己留存一份）。</p>
+<p>3️⃣保密协议：重点看“公司代码、项目文档、接口信息不得外泄”相关条款，签字确认。</p>
+</blockquote>
+</li>
+<li><p>HR开通企业沟通工具（企业微信&#x2F;飞书&#x2F;钉钉），告知账号密码（一般为手机号，初始密码可修改），添加直属leader、团队成员、HR好友。</p>
+</li>
+<li><p>HR或直属leader带你到指定工位，介绍工位周边（打印机、茶水间、卫生间）位置，介绍团队成员（简单打招呼即可，不用刻意社交）。</p>
+</li>
+</ol>
+<p>注意：所有签字文件仔细核对，有疑问及时问HR，不要随意签字；牢记直属leader姓名和工位，后续有问题优先找他。</p>
+<h1 id="二、开发环境搭建"><a href="#二、开发环境搭建" class="headerlink" title="二、开发环境搭建"></a>二、开发环境搭建</h1><p>核心目标：完成所有开发相关软件安装、权限开通，成功拉取项目代码并编译运行，打通测试环境，确保能正常开展后续开发工作（新手重点看，每一步都要操作到位）</p>
+<h2 id="第一步：开通项目Git仓库权限（关键第一步）"><a href="#第一步：开通项目Git仓库权限（关键第一步）" class="headerlink" title="第一步：开通项目Git仓库权限（关键第一步）"></a>第一步：开通项目Git仓库权限（关键第一步）</h2><ol>
+<li>找到直属leader，说明“需要Git仓库地址和权限，用于拉取项目代码”。</li>
+<li>leader会提供Git仓库地址（示例：<a class="link"   href="https://gitee.com/tumingkeji/android-project.git" >https://gitee.com/tumingkeji/android-project.git <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> ，实际以公司提供的为准），同时告知你的Git账号（一般为公司邮箱）和初始密码。</li>
+<li>leader操作开通你的仓库权限（读写权限，确保能拉取、提交代码），开通后会通知你。</li>
+<li>测试权限：打开浏览器，输入Git仓库地址，输入账号密码，能成功登录、看到项目目录，即为权限开通成功。</li>
+</ol>
+<p>注意：不要泄露Git账号密码、仓库地址，不要随意删除仓库内的文件&#x2F;分支。</p>
+<h2 id="第二步：安装必备开发软件（按顺序安装，避免出错）"><a href="#第二步：安装必备开发软件（按顺序安装，避免出错）" class="headerlink" title="第二步：安装必备开发软件（按顺序安装，避免出错）"></a>第二步：安装必备开发软件（按顺序安装，避免出错）</h2><p>所有软件优先安装公司提供的安装包（HR或leader会发），没有则按以下步骤下载安装，全程默认下一步即可，特殊步骤标注说明。</p>
+<h3 id="1-安装JDK（Android开发必备，版本按公司要求，一般为JDK11）"><a href="#1-安装JDK（Android开发必备，版本按公司要求，一般为JDK11）" class="headerlink" title="1. 安装JDK（Android开发必备，版本按公司要求，一般为JDK11）"></a>1. 安装JDK（Android开发必备，版本按公司要求，一般为JDK11）</h3><ol>
+<li>获取JDK安装包（leader提供，或从Oracle官网下载，注意选择对应系统：Windows&#x2F;macOS）。</li>
+<li>双击安装包，点击“下一步”，选择安装路径（建议默认路径，方便后续配置，如C:\Program Files\Java\jdk-11）。</li>
+<li>配置环境变量（新手重点，一步都不能漏）：        <ol>
+<li>Windows系统：右键“此电脑”→“属性”→“高级系统设置”→“环境变量”。</li>
+<li>在“系统变量”中，点击“新建”，变量名：JAVA_HOME，变量值：JDK安装路径（如C:\Program Files\Java\jdk-11），点击确定。</li>
+<li>找到“系统变量”中的“Path”，双击打开，点击“新建”，输入“%JAVA_HOME%\bin”，点击确定，再点击“新建”，输入“%JAVA_HOME%\jre\bin”，点击确定。</li>
+<li>测试是否安装成功：打开电脑“命令提示符”（Win+R，输入cmd），输入“java -version”，按下回车，能显示JDK版本号（如java version “11.0.18”），即为安装成功。</li>
+</ol>
+</li>
+</ol>
+<h3 id="2-安装Git（用于拉取、提交代码）"><a href="#2-安装Git（用于拉取、提交代码）" class="headerlink" title="2. 安装Git（用于拉取、提交代码）"></a>2. 安装Git（用于拉取、提交代码）</h3><ol>
+<li>获取Git安装包（leader提供，或从Git官网下载），双击安装。</li>
+<li>安装过程中，所有步骤默认下一步，唯一注意：在“Select Components”步骤，勾选“Git Bash Here”“Git GUI Here”（方便后续右键快速打开Git命令行）。</li>
+<li>测试是否安装成功：右键空白处，选择“Git Bash Here”，输入“git –version”，按下回车，显示Git版本号（如git version 2.42.0.windows.1），即为安装成功。</li>
+<li>配置Git（关联公司账号）：在Git Bash中，依次输入以下两条命令，每输完一条按回车（替换成自己的信息）：        <ol>
+<li>git config –global user.name “你的姓名（公司登记的）”</li>
+<li>git config –global user.email “你的公司邮箱（Git账号）”</li>
+</ol>
+</li>
+</ol>
+<h3 id="3-安装Android-Studio（核心开发工具）"><a href="#3-安装Android-Studio（核心开发工具）" class="headerlink" title="3. 安装Android Studio（核心开发工具）"></a>3. 安装Android Studio（核心开发工具）</h3><ol>
+<li>获取Android Studio安装包（leader提供，避免自己下载版本不兼容），双击安装。</li>
+<li>安装步骤：<ol>
+<li>点击“Next”，勾选“Android Studio”“Android SDK”“Android Virtual Device”（三个都要勾选，缺一不可），点击Next。</li>
+<li>选择安装路径（建议默认，或安装到D盘，避免C盘空间不足），点击Next。</li>
+<li>点击“Install”，等待安装完成（约5-10分钟，看电脑配置）。</li>
+<li>安装完成后，打开Android Studio，首次打开会提示“Configure”，选择“SDK Manager”。</li>
+<li>在SDK Manager中，勾选公司项目对应的SDK版本（leader会告知，一般为Android 12&#x2F;13），勾选“SDK Build-Tools”（选择与SDK版本匹配的版本），点击“Apply”，等待下载安装（约10-20分钟，需耐心等待）。</li>
+</ol>
+</li>
+<li>测试是否安装成功：打开Android Studio，能正常进入主界面，SDK下载完成后，无报错提示，即为安装成功。</li>
+</ol>
+<p>注意：Android Studio下载SDK时，若出现网络超时，告知leader，可能需要配置公司内网镜像。</p>
+<blockquote>
+<p>Android Studio 内网镜像 &#x2F; 代理配置（解决 SDK 下载超时）:通过配置公司内网代理或镜像源，让下载走公司内部通道，从而极速成功。</p>
+<p>1️⃣代理地址 (Proxy Host): </p>
+<p>例如 <code>http://proxy.tumingkeji.com</code> 或 <code>192.168.1.50</code></p>
+<p>代理端口 (Proxy Port): 例如 <code>8080</code>、<code>3128</code></p>
+<p>是否需要账号密码 (Authentication): 大部分公司需要，问清楚账号密码</p>
+<p>2️⃣全局 Gradle 代理配置（最推荐，一劳永逸）</p>
+<p>👉打开 Android Studio。</p>
+<p>👉点击顶部菜单栏 <strong>File</strong> → <strong>Settings</strong> (Windows&#x2F;Linux) 或 <strong>Android Studio</strong> → <strong>Preferences</strong> (Mac)。</p>
+<p>👉在设置窗口左侧，找到 <strong>Appearance &amp; Behavior</strong> → <strong>System Settings</strong> → <strong>HTTP Proxy</strong>。</p>
+<p>👉选择 <strong>Manual proxy configuration</strong> (手动配置代理)。</p>
+<p>填写信息：</p>
+<p>​	<strong>HTTP proxy</strong>: 输入刚才问到的 <strong>代理地址</strong> (如 <code>192.168.1.50</code>)</p>
+<ul>
+<li>​	<strong>Port</strong>: 输入 <strong>代理端口</strong> (如 <code>8080</code>)</li>
+</ul>
+<p>👉<strong>关键步骤</strong>：勾选 <strong>Use proxy for all protocols</strong> (为所有协议使用代理)。</p>
+<p>👉如果公司代理需要账号密码，勾选 <strong>Proxy requires authentication</strong>，并输入你的 <strong>Login</strong> (账号) 和 <strong>Password</strong> (密码)。</p>
+<p>👉点击底部 <strong>OK</strong> 保存。</p>
+<p>此时 Android Studio 会提示重启，点击 <strong>Restart</strong> 重启 IDE。</p>
+<p>3️⃣项目级 Gradle 镜像配置（兜底方案）</p>
+<p>如果全局配置后还是有问题，就在项目内部单独配置，这能确保项目构建时优先使用公司内部的镜像源。</p>
+<p>​		打开你的项目，找到根目录下的 <strong>gradle.properties</strong> 文件。</p>
+<p>​		打开文件，在末尾添加以下代码（替换成你的代理信息）：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 代理设置</span><br><span class="line">systemProp.http.proxyHost=192.168.1.50</span><br><span class="line">systemProp.http.proxyPort=8080</span><br><span class="line">systemProp.https.proxyHost=192.168.1.50</span><br><span class="line">systemProp.https.proxyPort=8080</span><br><span class="line"># 如果需要账号密码，添加下面两行</span><br><span class="line">systemProp.http.proxyUser=你的账号</span><br><span class="line">systemProp.http.proxyPassword=你的密码</span><br></pre></td></tr></table></figure></div>
+
+<p>保存文件，然后点击工具栏的 <strong>Sync Project with Gradle Files</strong> (大象图标) 同步一下。</p>
+</blockquote>
+<h2 id="第三步：拉取项目代码（新手最容易出错，仔细看步骤）"><a href="#第三步：拉取项目代码（新手最容易出错，仔细看步骤）" class="headerlink" title="第三步：拉取项目代码（新手最容易出错，仔细看步骤）"></a>第三步：拉取项目代码（新手最容易出错，仔细看步骤）</h2><ol>
+<li>在电脑桌面，右键空白处，选择“Git Bash Here”，打开Git命令行。</li>
+<li>输入命令“cd 桌面”（按下回车，切换到桌面目录，方便后续查找项目文件夹）。</li>
+<li>输入拉取代码命令：git clone 公司提供的Git仓库地址（示例：git clone <a class="link"   href="https://gitee.com/tumingkeji/android-project.git%EF%BC%89%EF%BC%8C%E6%8C%89%E4%B8%8B%E5%9B%9E%E8%BD%A6%E3%80%82" >https://gitee.com/tumingkeji/android-project.git），按下回车。 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li>此时会提示输入Git账号和密码（就是leader给的账号，输入时密码不显示，正常输入即可，输完按回车）。</li>
+<li>等待代码拉取完成（时间看项目大小，一般5-10分钟，命令行显示“done”即为完成）。</li>
+<li>拉取完成后，桌面会出现一个与项目名称一致的文件夹（如android-project），即为项目代码文件夹。</li>
+</ol>
+<p>常见问题解决：</p>
+<ul>
+<li>提示“权限不足”：联系leader，确认Git仓库权限已开通，重新输入账号密码尝试。</li>
+<li>拉取超时：检查网络，若为公司内网，告知leader，确认内网能访问Git仓库。</li>
+</ul>
+<h2 id="第四步：尝试编译运行项目（核心验证步骤）"><a href="#第四步：尝试编译运行项目（核心验证步骤）" class="headerlink" title="第四步：尝试编译运行项目（核心验证步骤）"></a>第四步：尝试编译运行项目（核心验证步骤）</h2><ol>
+<li>打开Android Studio，点击“Open”，找到桌面的项目文件夹（android-project），点击“OK”，导入项目。</li>
+<li>导入后，Android Studio会自动同步项目（右下角会显示“Syncing”），同步过程中可能会提示“缺少依赖”“SDK版本不匹配”，按以下方式解决：        <ol>
+<li>缺少依赖：点击提示框中的“Install Missing Dependencies”，自动下载安装，等待完成。</li>
+<li>SDK版本不匹配：点击提示框中的“Sync Project with Gradle Files”，或打开SDK Manager，安装对应版本的SDK。</li>
+</ol>
+</li>
+<li>同步完成后，配置模拟器（或连接真机）：        <ol>
+<li>模拟器：点击Android Studio顶部的“AVD Manager”（手机图标），点击“Create Virtual Device”，选择一个手机型号（如Pixel 5），选择已下载的SDK版本，点击“Finish”，创建模拟器。</li>
+<li>真机：用数据线连接电脑和自己的安卓手机，在手机上开启“开发者模式”（设置→关于手机→连续点击版本号7次），开启“USB调试”（开发者选项中勾选），电脑会自动安装手机驱动，驱动安装完成后，Android Studio会识别到手机。</li>
+</ol>
+</li>
+<li>编译运行：点击Android Studio顶部的“Run”按钮（绿色三角形），选择模拟器&#x2F;真机，点击“OK”，开始编译运行项目。</li>
+<li>验证：若模拟器&#x2F;真机上能成功打开App，无崩溃、无报错，即为编译运行成功；若报错，截图保存，及时找leader或资深同事帮忙解决（新手报错很正常，不要硬憋）。</li>
+</ol>
+<h2 id="第五步：配置内网、VPN（若公司需要，按以下步骤操作）"><a href="#第五步：配置内网、VPN（若公司需要，按以下步骤操作）" class="headerlink" title="第五步：配置内网、VPN（若公司需要，按以下步骤操作）"></a>第五步：配置内网、VPN（若公司需要，按以下步骤操作）</h2><ol>
+<li><p>找到HR或行政，领取公司内网配置说明、VPN安装包（初创公司可能不需要VPN，以公司要求为准）。</p>
+</li>
+<li><p>配置内网：        </p>
+<blockquote>
+<ol>
+<li>Windows系统：右键“网络”→“属性”→“更改适配器设置”，右键“以太网”→“属性”，找到“Internet协议版本4（TCP&#x2F;IPv4）”，双击打开。</li>
+<li>选择“使用下面的IP地址”“使用下面的DNS服务器地址”，按公司提供的内网IP、子网掩码、网关、DNS填写，点击确定，即可连接内网。</li>
+</ol>
+</blockquote>
+</li>
+<li><p>安装配置VPN（若有）：</p>
+<blockquote>
+<ol>
+<li>双击VPN安装包，默认下一步安装，安装完成后，打开VPN客户端。</li>
+<li>输入公司提供的VPN服务器地址、账号、密码，点击“连接”，连接成功后，即可访问公司内网资源。</li>
+</ol>
+</blockquote>
+</li>
+<li><p>测试：连接内网&#x2F;VPN后，尝试打开公司内网地址（如接口文档地址），能正常打开即为配置成功。</p>
+</li>
+</ol>
+<h2 id="第六步：配置接口文档、测试服地址（开发必备，避免后续踩坑）"><a href="#第六步：配置接口文档、测试服地址（开发必备，避免后续踩坑）" class="headerlink" title="第六步：配置接口文档、测试服地址（开发必备，避免后续踩坑）"></a>第六步：配置接口文档、测试服地址（开发必备，避免后续踩坑）</h2><ol>
+<li><p>找leader获取接口文档地址（一般为在线文档，如Swagger、ShowDoc，示例：<a class="link"   href="http://192.168.1.100:8080/swagger-ui.html%EF%BC%89%E3%80%81%E6%B5%8B%E8%AF%95%E6%9C%8D%E5%9C%B0%E5%9D%80%EF%BC%88%E7%A4%BA%E4%BE%8B%EF%BC%9Ahttp://test.tumingkeji.com:8081%EF%BC%89%E3%80%82" >http://192.168.1.100:8080/swagger-ui.html）、测试服地址（示例：http://test.tumingkeji.com:8081）。 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+<li><p>打开浏览器，输入接口文档地址，能正常打开、查看接口（请求方式、参数、返回值），即为接口文档可访问。</p>
+</li>
+<li><p>配置测试服地址到项目中：</p>
+<blockquote>
+<ol>
+<li>打开Android Studio中的项目，找到“res”→“values”→“strings.xml”文件（或项目中专门配置接口地址的文件，leader会告知）。</li>
+<li>找到“base_url”（基础地址），将其值修改为公司提供的测试服地址，保存文件。</li>
+<li>重新编译项目，确保修改后无报错，测试服地址配置完成。</li>
+</ol>
+</blockquote>
+</li>
+<li><p>验证：在App中尝试点击需要调用接口的功能（如登录、首页加载），若能正常获取数据（无“接口请求失败”提示），即为测试服配置成功。</p>
+</li>
+</ol>
+<p><strong>注意</strong>：接口文档要收藏到浏览器，后续开发时随时查看；测试服地址不要修改为正式服地址，避免影响正式环境。</p>
+<h1 id="三、环境搭建完成后，必做的3件事"><a href="#三、环境搭建完成后，必做的3件事" class="headerlink" title="三、环境搭建完成后，必做的3件事"></a>三、环境搭建完成后，必做的3件事</h1><ol>
+<li>再次确认：项目能正常编译运行、接口能正常调用、内网&#x2F;VPN能正常连接，无报错。</li>
+<li>整理笔记：把Git仓库地址、账号密码（记在自己的笔记本上，不要存在电脑桌面）、接口文档地址、测试服地址、leader联系方式，统一记录好，方便后续查阅。</li>
+<li>向leader汇报：找到leader，说“报告XX（leader姓名），我的开发环境已经搭建完成，项目能正常编译运行，接口和测试服也已配置好”，让leader放心。</li>
+</ol>
+<h1 id="四、新手注意事项（重点提醒）"><a href="#四、新手注意事项（重点提醒）" class="headerlink" title="四、新手注意事项（重点提醒）"></a>四、新手注意事项（重点提醒）</h1><ul>
+<li>所有操作若不确定，先问leader或资深同事，不要自己瞎操作（尤其是修改项目配置、删除代码）。</li>
+<li>软件安装、代码拉取、编译过程中，遇到报错不要慌，截图保存，详细说明问题，找同事帮忙解决（新手第一天报错很正常，没人会笑话你）。</li>
+<li>不要随意修改项目中的核心代码、配置文件，若需要修改，先告知leader，得到允许后再操作。</li>
+<li>全程保持耐心，环境搭建可能会遇到各种小问题，慢慢解决，确保每一步都落实到位，为后续开发打下基础。</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>工作</tag>
+      </tags>
+  </entry>
 </search>
