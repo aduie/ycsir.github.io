@@ -183,10 +183,8 @@
       signature,
       encoded,
     );
-    console.log(`Verification result: ${result}`);
     if (!result) {
       alert(wrongHashMessage);
-      console.log(`${wrongHashMessage}, got `, signature, ` but proved wrong.`);
     }
     return result;
   }
@@ -262,7 +260,6 @@
       })
       .catch((e) => {
         alert(wrongPassMessage);
-        console.log(e);
         return false;
       });
 
@@ -273,10 +270,6 @@
     const oldStorageData = JSON.parse(storage.getItem(storageName));
 
     if (oldStorageData) {
-      console.log(
-        `Password got from localStorage(${storageName}): `,
-        oldStorageData,
-      );
 
       const sIv = hexToArray(oldStorageData.iv).buffer;
       const sDk = oldStorageData.dk;
@@ -325,7 +318,6 @@
         const iv = await getIv(keyMaterial);
 
         decrypt(decryptKey, iv, hmacKey).then((result) => {
-          console.log(`Decrypt result: ${result}`);
           if (result) {
             cryptoObj.subtle.exportKey("jwk", decryptKey).then((dk) => {
               cryptoObj.subtle.exportKey("jwk", hmacKey).then((hmk) => {
